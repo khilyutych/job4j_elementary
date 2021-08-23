@@ -5,7 +5,7 @@ public class MathFunc {
         int y = x*x+1;
         return y;
     }
-    public static float func2 (float x) {
+    public static float func2 (int x) {
         float y = 1/x;
         return y;
     }
