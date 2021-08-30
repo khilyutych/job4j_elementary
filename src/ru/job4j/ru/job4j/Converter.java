@@ -12,8 +12,8 @@ public class Converter {
     public static void main (String[] args) {
         float euro = Converter.rubleToEuro(200.56F);
         float dollar = Converter.rubleToDollar(200F);
-        System.out.println("200.56 Euro are " + euro + " rub" );
-        System.out.println("200 Dollar are " + dollar + " rub");
+        System.out.println("200.56 rub are " + euro + " euro" );
+        System.out.println("200 rub are " + dollar + " dollar");
     }
 
 }
