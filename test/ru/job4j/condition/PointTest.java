@@ -7,7 +7,7 @@ public class PointTest {
 
     @Test
     public void distance1() {
-        double expected = 1;
+        double expected = 2;
         int x1 = 0;
         int y1 = 0;
         int x2 = 2;
@@ -18,7 +18,7 @@ public class PointTest {
 
     @Test
     public void distance2() {
-        double expected = 1;
+        double expected = 3.6;
         int x1 = 0;
         int y1 = 2;
         int x2 = 3;
@@ -29,9 +29,9 @@ public class PointTest {
 
     @Test
     public void distance3() {
-        double expected = 1;
-        int x1 = 0;
-        int y1 = 2;
+        double expected = 5;
+        int x1 = -2;
+        int y1 = 4;
         int x2 = 3;
         int y2 = 4;
         double out = Point.distance(x1, y1, x2, y2);
@@ -40,7 +40,7 @@ public class PointTest {
 
     @Test
     public void distance4() {
-        double expected = 1;
+        double expected = 2.83;
         int x1 = 1;
         int y1 = 2;
         int x2 = 3;
