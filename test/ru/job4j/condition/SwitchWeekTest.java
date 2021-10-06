@@ -6,10 +6,10 @@ import org.junit.Test;
 public class SwitchWeekTest {
 
     @Test
-    public void nameOfDay() {
+    public void whenDay10() {
         int day = 10;
-        int return = SwitchWeekTest.nameOfDay(day);
-        int expected = "Mistake";
-        Assert.assertEquals(expected, return);
+        String result = SwitchWeek.nameOfDay(day);
+        String expected = "Mistake";
+        Assert.assertEquals(expected, result);
     }
 }

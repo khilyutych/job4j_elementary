@@ -10,11 +10,14 @@ public class SwitchWeek {
             case 2:
                 name = "Tuesday";
                 break;
-            case 4:
+            case 3:
                 name = "Wednesday";
                 break;
-            case 5:
+            case 4:
                 name = "Thursday";
+                break;
+            case 5:
+                name = "Friday";
                 break;
             case 6:
                 name = "Saturday";
